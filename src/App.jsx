@@ -135,7 +135,7 @@ function App() {
         <section className="hero section" id="home">
           <div className="hero-content">
             <p className="eyebrow">{t.greeting}</p>
-            <h1>Yomif <span>Chala.</span></h1>
+            <h1>Yomif <span>Chala</span></h1>
             <h2>{t.role}</h2>
             <p className="hero-description">{t.intro}</p>
             <div className="hero-buttons">
