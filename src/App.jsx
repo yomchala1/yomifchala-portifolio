@@ -145,9 +145,9 @@ function App() {
             <p className="availability">● Open to learning and internship opportunities</p>
           </div>
 
-          <div className="hero-visual" aria-label="Developer initials YC">
+          <div className="hero-visual">
             <div className="visual-ring"></div>
-            <div className="initials">YC<span>.</span></div>
+            <img className="profile-picture" src="/yom.png" alt="Yomif Chala" />
             <div className="floating-tag tag-one">{"<Code />"}</div>
             <div className="floating-tag tag-two">Full-Stack</div>
           </div>

@@ -56,8 +56,7 @@ button, select {
 }
 
 .logo span,
-.hero h1 span,
-.initials span {
+.hero h1 span {
   color: var(--accent);
 }
 
@@ -216,11 +215,13 @@ button, select {
   border-radius: 50%;
 }
 
-.initials {
-  font-family: 'Space Grotesk', sans-serif;
-  font-size: clamp(80px, 12vw, 130px);
-  font-weight: 700;
-  letter-spacing: -10px;
+.profile-picture {
+  width: 68%;
+  aspect-ratio: 1;
+  border: 3px solid #7181ff80;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 12px 40px #0006;
 }
 
 .floating-tag {
