@@ -16,32 +16,32 @@ const translations = {
     projectsTitle: 'Featured Projects',
     projectsText: 'Projects I am building and learning from.',
     educationTitle: 'Education',
-    degree: 'Bachelor’s Degree in Information Systems',
+    degree: 'Bachelor’s Degree in Information Systems, at Haramaya University',
     status: 'Fourth-Year Student',
     contactTitle: 'Let’s Connect',
     contactText: 'Have an opportunity or want to collaborate? Send me a message.',
     email: 'Email Me',
-    footer: 'Built with React. Always learning, always improving.'
+    footer: 'Always learning, always improving.'
   },
   om: {
     Home: 'Mana', About: 'Waa’ee Koo', skills: 'Dandeettii',
     projects: 'Pirojektoota', certificates: 'Ragaalee', Education: 'Barnoota', Contact: 'Quunnamtii',
     greeting: 'Akkam, ani',
-    role: 'Barataa Information Systems | Full-Stack Developer ta’uuf hojjechaa jira',
-    intro: 'Weebsaayitii ammayyaa fi furmaata dijitaalaa nan ijaara. Dandeettii, pirojektootaa fi adeemsa barnoota koo ilaalaa.',
-    view: 'Pirojektoota Ilaali', hire: 'Na Quunnami',
+    role: 'Barataa Information Systems | Full-Stack Developer ta’uuf hojjechaan jira',
+    intro: 'Weebsaayitii ammayyaa fi furmaata dijitaalaa nan hojjedha! Dandeettii, pirojeektotaa fi adeemsa barnoota koo ilaalaa!',
+    view: 'Pirojeektota Koo Ilaali', hire: 'Na Quunnami',
     aboutTitle: 'Waa’ee Koo',
-    aboutText: 'Ani barataa Information Systems yoo ta’u, web development, database, networking fi teeknooloojii jaalladha. Dandeettii haaraa barachuu fi pirojektoota faayidaa qaban ijaaruu nan jaalladha.',
+    aboutText: 'Ani barataa Information Systems yoo ta’u, web development, database, networking fi teeknooloojii nan jaalladha. Dandeettii haaraa barachuu fi pirojeektoota faayidaa qaban ijaaruu nan danda'a!',
     skillsTitle: 'Dandeettii Koo',
-    projectsTitle: 'Pirojektoota Koo',
-    projectsText: 'Pirojektoota ani ijaaruu fi irraa barachaa jiru.',
+    projectsTitle: 'Pirojeektota Koo',
+    projectsText: 'Pirojeektota ani ijaaruu fi irraa barachaa jiru:',
     educationTitle: 'Barnoota',
-    degree: 'Digrii Information Systems',
+    degree: 'Yuuniversiitii Haramayaatti, Information Systems barachaa jira.',
     status: 'Barataa Waggaa Afraffaa',
-    contactTitle: 'Wal Quunnamnaa',
-    contactText: 'Carraa hojii qabdaa ykn na waliin hojjechuu barbaaddaa? Ergaa naa ergi.',
+    contactTitle: 'Wal Qunnamna',
+    contactText: 'Carraa hojii qabdaa ykn na waliin hojjechuu barbaaddaa? Na qunnami!',
     email: 'Email Naaf Ergi',
-    footer: 'React fayyadamuun kan ijaarame. Yeroo hunda barachaa fi fooyya’aa jira.'
+    footer: ' Yeroo hunda barachaa fi fooyya’aa jirra!'
   },
   am: {
     home: 'الرئيسية', about: 'ስለ እኔ', skills: 'ክህሎቶች',
@@ -61,7 +61,7 @@ const translations = {
     contactTitle: 'እንገናኝ',
     contactText: 'የሥራ ዕድል ወይም የትብብር ሐሳብ ካለዎት መልዕክት ይላኩልኝ።',
     email: 'ኢሜይል ይላኩልኝ',
-    footer: 'በReact የተሠራ። ሁልጊዜ እየተማርኩ እና እየተሻሻልኩ ነው።'
+    footer: ' ሁልጊዜ እየተማርኩ እና እየተሻሻልኩ ነው።'
   }
 }
 
@@ -110,10 +110,17 @@ const certificates = [
   },
   {
     id: 3,
-    title: 'Database Management',
-    issuer: 'Organization Name',
-    year: '2026',
-    image: '/certificates/database.png'
+    title: 'AI Fundamentals',
+    issuer: 'UDACITY',
+    year: '2025',
+    image: '/Certificates/ai-fundamentals.jpg'
+  },
+  {
+    id: 4,
+    title: 'Data Analysis Fundamentals',
+    issuer: 'UDACITY',
+    year: '2025',
+    image: '/Certificates/da-fundamentals.jpg'
   }
 ]
 
