@@ -280,7 +280,7 @@ function App() {
             <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
             <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
           </div>
-          <p className="note">Update the email and social links with your real accounts.</p>
+          <p className="note">Oromummaan Dhiiga!</p>
         </section>
       </main>
 
