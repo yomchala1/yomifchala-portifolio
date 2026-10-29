@@ -23,26 +23,41 @@ const translations = {
     email: 'Email Me',
     footer: 'Always learning, always improving.'
   },
-  om: {
-    Home: 'Mana', About: 'Waa’ee Koo', skills: 'Dandeettii',
-    projects: 'Pirojektoota', certificates: 'Ragaalee', Education: 'Barnoota', Contact: 'Quunnamtii',
-    greeting: 'Akkam, ani',
-    role: 'Barataa Information Systems | Full-Stack Developer ta’uuf hojjechaan jira',
-    intro: 'Weebsaayitii ammayyaa fi furmaata dijitaalaa nan hojjedha! Dandeettii, pirojeektotaa fi adeemsa barnoota koo ilaalaa!',
-    view: 'Pirojeektota Koo Ilaali', hire: 'Na Quunnami',
-    aboutTitle: 'Waa’ee Koo',
-    aboutText: 'Ani barataa Information Systems yoo ta’u, web development, database, networking fi teeknooloojii nan jaalladha. Dandeettii haaraa barachuu fi pirojeektoota faayidaa qaban ijaaruu nan dandaha!',
-    skillsTitle: 'Dandeettii Koo',
-    projectsTitle: 'Pirojeektota Koo',
-    projectsText: 'Pirojeektota ani ijaaruu fi irraa barachaa jiru:',
-    educationTitle: 'Barnoota',
-    degree: 'Yuuniversiitii Haramayaatti, Information Systems barachaa jira.',
-    status: 'Barataa Waggaa Afraffaa',
-    contactTitle: 'Wal Qunnamna',
-    contactText: 'Carraa hojii qabdaa ykn na waliin hojjechuu barbaaddaa? Na qunnami!',
-    email: 'Email Naaf Ergi',
-    footer: ' Yeroo hunda barachaa fi fooyya’aa jirra!'
-  },
+  
+om: {
+  home: 'Mana',
+  about: 'Waa’ee Koo',
+  skills: 'Dandeettii',
+  projects: 'Pirojektoota',
+  certificates: 'Ragaalee',
+  education: 'Barnoota',
+  contact: 'Quunnamtii',
+
+  greeting: 'Akkam, ani',
+  role: 'Barataa Information Systems | Full-Stack Developer ta’uuf hojjechaa jira',
+  intro: 'Weebsaayitii ammayyaa fi furmaata dijitaalaa nan hojjedha! Dandeettii, pirojektoota fi adeemsa barnoota koo ilaalaa!',
+
+  view: 'Pirojektoota Koo Ilaali',
+  hire: 'Na Quunnami',
+
+  aboutTitle: 'Waa’ee Koo',
+  aboutText: 'Ani barataa Information Systems yoo ta’u, web development, database, networking fi teeknooloojii nan jaalladha. Dandeettii haaraa barachuu fi pirojektoota faayidaa qaban ijaaruu nan danda’a!',
+
+  skillsTitle: 'Dandeettii Koo',
+  projectsTitle: 'Pirojeektoota Koo',
+  projectsText: 'Pirojeektota ani ijaaruu fi irraa barachaa jiru.',
+
+  educationTitle: 'Barnoota',
+  degree: 'Yuunivarsiitii Haramayaatti Information Systems barachaa jira.',
+  status: 'Barataa Waggaa Afraffaa',
+
+  contactTitle: 'Wal Quunnamna',
+  contactText: 'Carraa hojii qabdaa ykn na waliin hojjechuu barbaaddaa? Na qunnami!',
+  email: 'Email Naaf Ergi',
+
+  footer: 'Yeroo hunda barachaa fi fooyya’aan jira!'
+},
+
   am: {
     home: 'الرئيسية', about: 'ስለ እኔ', skills: 'ክህሎቶች',
     projects: 'ፕሮጀክቶች', certificates: 'ሰርተፊኬቶች', education: 'ትምህርት', contact: 'አግኙኝ',
