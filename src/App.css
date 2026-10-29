@@ -426,6 +426,27 @@ button, select {
   gap: 18px;
 }
 
+.footer-social-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-social-links a {
+  display: grid;
+  place-items: center;
+}
+
+.footer-social-links svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.7;
+}
+
 .footer p {
   color: #8993a9;
   font-size: 11px;

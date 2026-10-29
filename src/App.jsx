@@ -85,7 +85,13 @@ const projects = [
     name: 'Networking Lab',
     description: 'Networking practice and network topology designs using Packet Tracer.',
     tech: 'Networking · Cisco'
-  }
+  },
+  {
+  number: '04',
+  name: 'Graphic Design',
+  description: 'Creative graphic designs, logos, posters, branding, and social media visuals.',
+  tech: 'Graphic Design · Photoshop · Illustrator'
+}
 ]
 
 function App() {
@@ -195,20 +201,20 @@ function App() {
         </section>
 
         <section className="section education-section" id="education">
-          <p className="eyebrow">04 / {t.education}</p>
+          <p className="eyebrow">05 / {t.education}</p>
           <h2 className="section-title">{t.educationTitle}</h2>
           <div className="education-card">
             <div className="education-icon">✦</div>
             <div>
               <h3>{t.degree}</h3>
               <p>{t.status}</p>
-              <span>Relevant interests: Web Development, Databases, Networking</span>
+              <span>Relevant interests: Web Development, Databases, Networking, Graphic Design</span>
             </div>
           </div>
         </section>
 
         <section className="section contact-section" id="contact">
-          <p className="eyebrow">05 / {t.contact}</p>
+          <p className="eyebrow">06 / {t.contact}</p>
           <h2 className="section-title">{t.contactTitle}</h2>
           <p className="section-description">{t.contactText}</p>
           <a className="button primary" href="mailto:your-yomchala1@gmail.com">
@@ -225,6 +231,24 @@ function App() {
       <footer className="footer">
         <a className="logo" href="#home">YC<span>.</span></a>
         <p>© {new Date().getFullYear()} Yomif Chala {t.footer}</p>
+        <nav className="footer-social-links" aria-label="Social links">
+          <a href="mailto:your-yomchala1@gmail.com" aria-label="Email">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M3 5h18v14H3z" />
+              <path d="m3 6 9 7 9-7" />
+            </svg>
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.9-2.7c3-.3 6.1-1.5 6.1-6.7a5.2 5.2 0 0 0-1.4-3.6 4.8 4.8 0 0 0-.1-3.6S17.5 1.2 15 3a13.3 13.3 0 0 0-7 0C5.5 1.2 4.3 1.5 4.3 1.5a4.8 4.8 0 0 0-.1 3.6 5.2 5.2 0 0 0-1.4 3.6c0 5.2 3.1 6.4 6.1 6.7A3.4 3.4 0 0 0 8 18v4" />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 9v11M4 4v.01M10 20v-6a4 4 0 0 1 8 0v6M10 10v10" />
+            </svg>
+          </a>
+        </nav>
         <a href="#home">Back to top ↑</a>
       </footer>
     </div>
