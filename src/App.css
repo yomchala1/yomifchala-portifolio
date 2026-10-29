@@ -542,3 +542,74 @@ button, select {
     padding: 25px 20px;
   }
 }
+
+/* Certificates Section */
+.certificates-section {
+  border-top: 1px solid var(--border);
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 32px;
+}
+
+.certificate-card {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--surface);
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.certificate-card:hover {
+  border-color: var(--accent);
+  transform: translateY(-3px);
+}
+
+.certificate-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background: #ffffff;
+}
+
+.certificate-info {
+  padding: 20px;
+}
+
+.certificate-info h3 {
+  margin-top: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+}
+
+.certificate-info p {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.certificate-info span {
+  display: block;
+  color: #aab6ff;
+  font-size: 12px;
+  margin: 10px 0 18px;
+}
+
+.certificate-button {
+  display: inline-flex;
+}
+
+@media (max-width: 900px) {
+  .certificates-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .certificates-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -5,7 +5,7 @@ import './App.css'
 const translations = {
   en: {
     home: 'Home', about: 'About Me', skills: 'Skills',
-    projects: 'Projects', education: 'Education', contact: 'Contact',
+    projects: 'Projects', certificates: 'Certificates', education: 'Education', contact: 'Contact',
     greeting: "Hello, I'm",
     role: 'Information Systems Student | Aspiring Full-Stack Developer',
     intro: 'I build modern websites and practical digital solutions. Explore my skills, projects, and learning journey.',
@@ -25,7 +25,7 @@ const translations = {
   },
   om: {
     Home: 'Mana', About: 'Waa’ee Koo', skills: 'Dandeettii',
-    projects: 'Pirojektoota', Education: 'Barnoota', Contact: 'Quunnamtii',
+    projects: 'Pirojektoota', certificates: 'Ragaalee', Education: 'Barnoota', Contact: 'Quunnamtii',
     greeting: 'Akkam, ani',
     role: 'Barataa Information Systems | Full-Stack Developer ta’uuf hojjechaa jira',
     intro: 'Weebsaayitii ammayyaa fi furmaata dijitaalaa nan ijaara. Dandeettii, pirojektootaa fi adeemsa barnoota koo ilaalaa.',
@@ -45,7 +45,7 @@ const translations = {
   },
   am: {
     home: 'الرئيسية', about: 'ስለ እኔ', skills: 'ክህሎቶች',
-    projects: 'ፕሮጀክቶች', education: 'ትምህርት', contact: 'አግኙኝ',
+    projects: 'ፕሮጀክቶች', certificates: 'ሰርተፊኬቶች', education: 'ትምህርት', contact: 'አግኙኝ',
     greeting: 'ሰላም፣ እኔ',
     role: 'የInformation Systems ተማሪ | የFull-Stack Developer ሙያ ተማሪ',
     intro: 'ዘመናዊ ድረ-ገጾችን እና ዲጂታል መፍትሄዎችን እገነባለሁ።',
@@ -93,6 +93,29 @@ const projects = [
   tech: 'Graphic Design · Photoshop · Illustrator'
 }
 ]
+const certificates = [
+  {
+    id: 1,
+    title: 'Web Development',
+    issuer: 'Haramaya University',
+    year: '2025',
+    image: '/Certificates/full-stack.jpg'
+  },
+  {
+    id: 2,
+    title: 'Graphic Design',
+    issuer: 'Amen Creative',
+    year: '2025',
+    image: '/Certificates/graphic-design.jpg'
+  },
+  {
+    id: 3,
+    title: 'Database Management',
+    issuer: 'Organization Name',
+    year: '2026',
+    image: '/certificates/database.png'
+  }
+]
 
 function App() {
   const [language, setLanguage] = useState('en')
@@ -101,7 +124,7 @@ function App() {
 
   const navItems = [
     ['home', t.home], ['about', t.about], ['skills', t.skills],
-    ['projects', t.projects], ['education', t.education], ['contact', t.contact]
+    ['projects', t.projects], ['certificates', t.certificates], ['education', t.education], ['contact', t.contact]
   ]
 
   return (
@@ -199,6 +222,39 @@ function App() {
           </div>
           <p className="note">Replace these sample projects with your own work as you complete it.</p>
         </section>
+
+        <section className="section certificates-section" id="certificates">
+  <p className="eyebrow">04 / {t.certificates}</p>
+
+  <h2 className="section-title">My Certificates</h2>
+
+  <p className="section-description">
+    Certificates and courses I have completed.
+  </p>
+
+  <div className="certificates-grid">
+    {certificates.map((certificate) => (
+      <article className="certificate-card" key={certificate.id}>
+        <div className="certificate-info">
+          <h3>{certificate.title}</h3>
+
+          <p>{certificate.issuer}</p>
+
+          <span>{certificate.year}</span>
+
+          <a
+            className="button secondary certificate-button"
+            href={certificate.image}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Certificate ↗
+          </a>
+        </div>
+      </article>
+    ))}
+  </div>
+</section>
 
         <section className="section education-section" id="education">
           <p className="eyebrow">05 / {t.education}</p>
